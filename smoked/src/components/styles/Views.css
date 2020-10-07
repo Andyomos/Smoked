@@ -1,0 +1,95 @@
+/* About Style Start */
+
+.aboutMain {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+.aboutDouble {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aboutDoubleInner {
+  margin: 0 2rem;
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+.aboutDoubleInner ul {
+  list-style: none;
+}
+
+/* About Style End */
+
+/* Contact Style Start */
+
+.contactMain {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactMain h4 {
+  font-size: 3rem;
+  text-decoration: underline rgba(255, 0, 0, 0.801);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.formDiv {
+  min-height: 40vh;
+  min-width: 50%;
+}
+
+.formDiv .mainForm fieldset {
+  line-height: 1.5;
+  padding: 0 3rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.formDiv .mainForm fieldset legend {
+  color: rgba(255, 0, 0, 0.733);
+  font-size: 1.8rem;
+}
+
+.contactMessageLogger {
+  font-size: 1.6rem;
+}
+
+.contactInputDiv input,
+.contactInputDiv textarea {
+  margin: 10px;
+  padding: 8px;
+  width: 350px;
+  font-size: 2rem;
+}
+
+.contactInputDiv textarea {
+  width: 350px;
+  height: 280px;
+}
+
+.contactInputDiv button {
+  font-size: 1.8rem;
+  width: 50%;
+  margin: 0.8rem;
+  background-color: rgba(255, 0, 0, 0.801);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 3px 2px 5px rgba(255, 0, 0, 0.541);
+  transition: 3ms;
+}
+
+.contactInputDiv button:hover {
+  background-color: rgba(255, 0, 0, 0.432);
+  color: rgba(255, 255, 255, 0.671);
+}
+
+/* Contact Style End */

@@ -1,0 +1,124 @@
+/* Counter Design Start */
+.counter {
+  background-color: rgb(40, 44, 52);
+  font-size: calc(10px + 1.5vmin);
+  color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.counter .timer {
+  min-width: 30vw;
+  color: rgba(255, 255, 255, 0.801);
+}
+
+.counter .counterInput input {
+  outline-color: rgba(255, 0, 0, 0.733);
+  background-color: rgba(255, 255, 255, 0.801);
+  margin-bottom: 15px;
+}
+
+.counter .counterDiv button,
+.counterInput input,
+.product .productHeader h5 button {
+  margin-left: 1rem;
+  background-color: rgba(255, 0, 0, 0.733);
+  color: rgba(255, 255, 255, 0.801);
+
+  border-radius: 8px;
+  box-shadow: 3px 2px 5px rgba(255, 255, 255, 0.541);
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 5px;
+}
+
+.counter .counterDiv button {
+  margin-right: 25px;
+}
+
+.counter .counterDiv button,
+.product .productHeader h5 button {
+  outline: none;
+}
+
+.counter .counterDiv button:hover,
+.order:hover,
+.product .productHeader h5 button:hover {
+  background-color: rgba(255, 255, 255, 0.801);
+  color: rgba(255, 0, 0, 0.733);
+}
+/* Counter Design End */
+
+/* Product Design Start */
+
+.product {
+  max-width: 1200px;
+  display: grid;
+  min-height: 40vh;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-evenly;
+  align-items: center;
+
+  color: rgba(40, 44, 52, 0.801);
+  overflow: hidden;
+}
+
+.product .productHeader h1 {
+  margin: 2rem auto 0;
+}
+
+.product .productDiv {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin: 12px;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: rgba(255, 255, 255, 0.801);
+  background-color: rgba(0, 0, 0, 0.733);
+
+  transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.product .product-1 {
+  background-image: url("../img/chacolefish-1.jpg");
+}
+
+.product .product-2 {
+  background-image: url("../img/smoketurkey-2.jpg");
+}
+
+.product .product-3 {
+  background-image: url("../img/chacolefish-3.jpg");
+}
+
+.product .productDiv h1 {
+  margin: 0 auto;
+}
+
+.product .productHeader h5 button {
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 0;
+  width: 4rem;
+  margin-left: 0.3rem;
+  background-color: rgb(40, 44, 52);
+  color: rgba(255, 255, 255, 0.801);
+  text-decoration: none;
+  transition: 1s ease-out;
+}
+
+.order {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.801);
+}
+
+/* Pruduct Design End */

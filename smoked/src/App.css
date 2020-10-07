@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  background-color: rgba(161, 160, 160, 0.253);
+  color: rgba(59, 38, 38, 0.836);
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 640) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Nav Design Start */
+.navContainer {
+  background-color: rgb(40, 44, 52);
+  font-size: calc(10px + 0.5vmin);
+  color: rgb(255, 255, 255);
+
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  min-width: 100vw;
+  overflow: wrap;
+}
+
+.navContainer .navInner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-around;
+  padding: 0 25px 0 0;
+}
+
+.navContainer .navInner h1 span {
+  color: rgba(255, 0, 0, 0.801);
+}
+
+.navContainer .navInner h1 small {
+  font-size: 1.6rem;
+}
+
+.navContainer .mainNav ul {
+  display: flex;
+  list-style: none;
+
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.navContainer .mainNav ul li {
+  padding: 0 25px 0 0;
+}
+.navContainer .mainNav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.main-nav-active:active {
+  color: rgba(255, 0, 0, 0.733);
+}
+.navContainer .mainNav ul li a:hover {
+  color: rgba(255, 0, 0, 0.733);
+}
+
+/* Nav Design End */
+
+/* showCase Design Start */
+.showCase {
+  min-height: 80vh;
+  background-image: url("./images/smoked.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.801);
+  background-color: rgba(0, 0, 0, 0.733);
+
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  font-size: calc(1rem + 2.5vmin);
+  line-height: 1.6;
+}
+
+.showCase .innerShowCase h1 {
+  font-size: 4rem;
+  margin: 0 auto;
+  color: rgba(255, 0, 0, 0.733);
+}
+
+.showCase .innerShowCase h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 2rem 0 auto;
+}
+
+.showCase .innerShowCase h3 span {
+  color: rgba(255, 0, 0, 0.733);
+}
+
+.showCase .innerShowCase p {
+  letter-spacing: 1.8px;
+  line-height: 1.2;
+  margin: 0 2rem 1.8rem;
+}
+
+.showCase .innerShowCase .productLink {
+  font-size: 1.8rem;
+}
+
+.showCase .innerShowCase .productLink button {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 5px;
+  background-color: rgba(255, 0, 0, 0.733);
+  color: rgba(255, 255, 255, 0.801);
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 3px 2px 5px rgba(255, 255, 255, 0.541);
+}
+
+.showCase .innerShowCase .productLink button:hover {
+  background-color: rgba(255, 255, 255, 0.801);
+  color: rgba(255, 0, 0, 0.733);
+}
+
+/* showCase Design End */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Footer Nav Design Start */
+.footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  font-size: calc(10px + 0.5vmin);
+  color: rgb(255, 255, 255);
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 100vw;
+  overflow: wrap;
+  margin: 5rem 0 auto;
+}
+/* Footer Nav Design End */
