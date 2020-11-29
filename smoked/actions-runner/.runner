@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "smoked",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/tFNR9k4PK1qXQwVcFxVxgzWAa2Yu7ONQDudvmMWWRu1DvXA8r8",
+  "gitHubUrl": "https://github.com/Andyomos/Smoked",
+  "workFolder": "smoked-fish"
+}

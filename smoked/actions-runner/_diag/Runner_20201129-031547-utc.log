@@ -1,0 +1,177 @@
+[2020-11-29 03:15:47Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-11-29 03:15:47Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:47Z INFO HostContext] Well known directory 'Root': 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:47Z INFO HostContext] Well known config file 'Credentials': 'D:\projects\smoked-root\smoked\actions-runner\.credentials'
+[2020-11-29 03:15:47Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2020-11-29 03:15:47Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.17763.
+[2020-11-29 03:15:48Z INFO Listener] Version: 2.274.2
+[2020-11-29 03:15:48Z INFO Listener] Commit: 9987a8d024a6075cd2357d07c5aec9785126d5a9
+[2020-11-29 03:15:48Z INFO Listener] Culture: en-CA
+[2020-11-29 03:15:48Z INFO Listener] UI Culture: en-US
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Root': 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:48Z INFO Listener] Validating directory permissions for: 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:48Z INFO CommandLineParser] Parse
+[2020-11-29 03:15:48Z INFO CommandLineParser] Parsing 5 args
+[2020-11-29 03:15:48Z INFO CommandLineParser] parsing argument
+[2020-11-29 03:15:48Z INFO CommandLineParser] HasArgs: False
+[2020-11-29 03:15:48Z INFO CommandLineParser] Adding Command: configure
+[2020-11-29 03:15:48Z INFO CommandLineParser] parsing argument
+[2020-11-29 03:15:48Z INFO CommandLineParser] HasArgs: True
+[2020-11-29 03:15:48Z INFO CommandLineParser] arg: url
+[2020-11-29 03:15:48Z INFO CommandLineParser] parsing argument
+[2020-11-29 03:15:48Z INFO CommandLineParser] HasArgs: True
+[2020-11-29 03:15:48Z INFO CommandLineParser] Adding option 'url': 'https://github.com/Andyomos/Smoked'
+[2020-11-29 03:15:48Z INFO CommandLineParser] parsing argument
+[2020-11-29 03:15:48Z INFO CommandLineParser] HasArgs: True
+[2020-11-29 03:15:48Z INFO CommandLineParser] arg: token
+[2020-11-29 03:15:48Z INFO CommandLineParser] parsing argument
+[2020-11-29 03:15:48Z INFO CommandLineParser] HasArgs: True
+[2020-11-29 03:15:48Z INFO CommandLineParser] Adding option 'token': '***'
+[2020-11-29 03:15:48Z INFO Listener] Arguments parsed
+[2020-11-29 03:15:48Z INFO Runner] ExecuteCommand
+[2020-11-29 03:15:48Z INFO ConfigurationStore] currentAssemblyLocation: D:\projects\smoked-root\smoked\actions-runner\bin\Runner.Listener.dll
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:48Z INFO ConfigurationStore] binPath: D:\projects\smoked-root\smoked\actions-runner\bin
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Root': 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:48Z INFO ConfigurationStore] RootFolder: D:\projects\smoked-root\smoked\actions-runner
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Root': 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:48Z INFO HostContext] Well known config file 'Runner': 'D:\projects\smoked-root\smoked\actions-runner\.runner'
+[2020-11-29 03:15:48Z INFO ConfigurationStore] ConfigFilePath: D:\projects\smoked-root\smoked\actions-runner\.runner
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Root': 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:48Z INFO HostContext] Well known config file 'Credentials': 'D:\projects\smoked-root\smoked\actions-runner\.credentials'
+[2020-11-29 03:15:48Z INFO ConfigurationStore] CredFilePath: D:\projects\smoked-root\smoked\actions-runner\.credentials
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Root': 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:48Z INFO HostContext] Well known config file 'MigratedCredentials': 'D:\projects\smoked-root\smoked\actions-runner\.credentials_migrated'
+[2020-11-29 03:15:48Z INFO ConfigurationStore] MigratedCredFilePath: D:\projects\smoked-root\smoked\actions-runner\.credentials_migrated
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:48Z INFO HostContext] Well known directory 'Root': 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:48Z INFO HostContext] Well known config file 'Service': 'D:\projects\smoked-root\smoked\actions-runner\.service'
+[2020-11-29 03:15:48Z INFO ConfigurationStore] ServiceConfigFilePath: D:\projects\smoked-root\smoked\actions-runner\.service
+[2020-11-29 03:15:48Z INFO CommandSettings] Flag 'help': 'False'
+[2020-11-29 03:15:48Z INFO CommandSettings] Flag 'version': 'False'
+[2020-11-29 03:15:48Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-11-29 03:15:48Z INFO CommandSettings] Command 'configure': 'True'
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: 
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-11-29 03:15:48Z INFO Terminal] WRITE: |                       
+[2020-11-29 03:15:48Z INFO Terminal] WRITE: Self-hosted runner registration
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE:                         |
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-11-29 03:15:48Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-11-29 03:15:48Z INFO ConfigurationManager] ConfigureAsync
+[2020-11-29 03:15:48Z INFO ConfigurationStore] IsConfigured()
+[2020-11-29 03:15:48Z INFO ConfigurationStore] IsConfigured: False
+[2020-11-29 03:15:48Z INFO ConfigurationManager] Is configured: False
+[2020-11-29 03:15:48Z INFO CommandSettings] Arg 'url': 'https://github.com/Andyomos/Smoked'
+[2020-11-29 03:15:48Z INFO CommandSettings] Remove url from Arg dictionary.
+[2020-11-29 03:15:48Z INFO CommandSettings] Arg 'token': '***'
+[2020-11-29 03:15:48Z INFO CommandSettings] Remove token from Arg dictionary.
+[2020-11-29 03:15:49Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2020-11-29 03:15:49Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2020-11-29 03:15:49Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-11-29 03:15:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-11-29 03:15:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-11-29 03:15:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-11-29 03:15:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-11-29 03:15:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-11-29 03:15:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-11-29 03:15:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-11-29 03:15:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-11-29 03:15:50Z INFO Terminal] WRITE LINE: 
+[2020-11-29 03:15:50Z INFO ConfigurationManager] Test Connection complete.
+[2020-11-29 03:15:50Z INFO HostContext] Well known directory 'Bin': 'D:\projects\smoked-root\smoked\actions-runner\bin'
+[2020-11-29 03:15:50Z INFO HostContext] Well known directory 'Root': 'D:\projects\smoked-root\smoked\actions-runner'
+[2020-11-29 03:15:50Z INFO HostContext] Well known config file 'RSACredentials': 'D:\projects\smoked-root\smoked\actions-runner\.credentials_rsaparams'
+[2020-11-29 03:15:50Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2020-11-29 03:15:50Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file D:\projects\smoked-root\smoked\actions-runner\.credentials_rsaparams
+[2020-11-29 03:15:50Z INFO ConfigurationManager] Found a self-hosted runner group with id {1} and name {2} 1, Default
+[2020-11-29 03:15:50Z INFO CommandSettings] Arg 'name': ''
+[2020-11-29 03:15:50Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-11-29 03:15:50Z INFO PromptManager] ReadValue
+[2020-11-29 03:15:50Z INFO Terminal] WRITE: Enter the name of runner: 
+[2020-11-29 03:15:50Z INFO Terminal] WRITE: [press Enter for DESKTOP-CDBIT9N] 
+[2020-11-29 03:15:50Z INFO Terminal] READ LINE
+[2020-11-29 03:17:17Z INFO Terminal] Read value: 'smoked'
+[2020-11-29 03:17:17Z INFO Terminal] WRITE LINE: 
+[2020-11-29 03:17:17Z INFO CommandSettings] Arg 'labels': ''
+[2020-11-29 03:17:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-11-29 03:17:17Z INFO PromptManager] ReadValue
+[2020-11-29 03:17:17Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2020-11-29 03:17:17Z INFO Terminal] WRITE: [press Enter to skip] 
+[2020-11-29 03:17:17Z INFO Terminal] READ LINE
+[2020-11-29 03:17:42Z INFO Terminal] Read value: ''
+[2020-11-29 03:17:42Z INFO Terminal] WRITE LINE: 
+[2020-11-29 03:17:43Z INFO ConfigurationStore] Saving OAuth credential @ D:\projects\smoked-root\smoked\actions-runner\.credentials
+[2020-11-29 03:17:43Z INFO ConfigurationStore] Credentials Saved.
+[2020-11-29 03:17:43Z INFO ConfigurationStore] HasCredentials()
+[2020-11-29 03:17:43Z INFO ConfigurationStore] stored True
+[2020-11-29 03:17:43Z INFO CredentialManager] GetCredentialProvider
+[2020-11-29 03:17:43Z INFO CredentialManager] Creating type OAuth
+[2020-11-29 03:17:43Z INFO CredentialManager] Creating credential type: OAuth
+[2020-11-29 03:17:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\projects\smoked-root\smoked\actions-runner\.credentials_rsaparams
+[2020-11-29 03:17:43Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-11-29 03:17:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-11-29 03:17:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-11-29 03:17:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-11-29 03:17:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-11-29 03:17:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-11-29 03:17:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-11-29 03:17:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-11-29 03:17:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-11-29 03:17:44Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-11-29 03:17:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-11-29 03:17:44Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d8b24d4b-8e35-41fd-9f69-aa9ddeeca68c
+ActivityId: 7f898b7c-3516-457c-b9e1-71e3e8ae9a02
+X-TFS-Session: 38bf5a9e-3a59-4f75-aaa6-3dd643941144
+X-VSS-E2EID: ff3dcbad-b8d0-4378-aac5-5aca010ecdfc
+X-VSS-SenderDeploymentId: 13a19993-c6bc-326c-afb4-32c5519f46f0
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 4850D1953FAB49C9900E157982F6B1B1 Ref B: YVR30EDGE0119 Ref C: 2020-11-29T03:17:44Z
+Date: Sun, 29 Nov 2020 03:17:44 GMT
+
+[2020-11-29 03:17:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\projects\smoked-root\smoked\actions-runner\.credentials_rsaparams
+[2020-11-29 03:17:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\projects\smoked-root\smoked\actions-runner\.credentials_rsaparams
+[2020-11-29 03:17:45Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-11-29 03:17:45Z INFO CommandSettings] Arg 'work': ''
+[2020-11-29 03:17:45Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-11-29 03:17:45Z INFO PromptManager] ReadValue
+[2020-11-29 03:17:45Z INFO Terminal] WRITE: Enter name of work folder: 
+[2020-11-29 03:17:45Z INFO Terminal] WRITE: [press Enter for _work] 
+[2020-11-29 03:17:45Z INFO Terminal] READ LINE
+[2020-11-29 03:19:02Z INFO Terminal] Read value: 'smoked-fish'
+[2020-11-29 03:19:02Z INFO ConfigurationStore] Saving runner settings.
+[2020-11-29 03:19:02Z INFO ConfigurationStore] Settings Saved.
+[2020-11-29 03:19:02Z INFO Terminal] WRITE LINE: 
+[2020-11-29 03:19:02Z INFO Terminal] WRITE LINE: 
+[2020-11-29 03:19:02Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2020-11-29 03:19:02Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-11-29 03:19:02Z INFO PromptManager] ReadValue
+[2020-11-29 03:19:02Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2020-11-29 03:19:02Z INFO Terminal] WRITE: [press Enter for N] 
+[2020-11-29 03:19:02Z INFO Terminal] READ LINE
+[2020-11-29 03:19:17Z INFO Terminal] Read value: 'y'
+[2020-11-29 03:19:17Z INFO ConfigurationManager] Configuring to run the agent as service
+[2020-11-29 03:19:17Z ERR  WindowsServiceControlManager] Needs Administrator privileges for configure runner as windows service.
+[2020-11-29 03:19:17Z ERR  Runner] System.Security.SecurityException: Needs Administrator privileges for configuring runner as windows service.
+   at GitHub.Runner.Listener.Configuration.WindowsServiceControlManager.ConfigureService(RunnerSettings settings, CommandSettings command)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2020-11-29 03:19:17Z ERR  Terminal] WRITE ERROR: Needs Administrator privileges for configuring runner as windows service.
+[2020-11-29 03:19:17Z INFO Listener] Runner execution has finished with return code 1
